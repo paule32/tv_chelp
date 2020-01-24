@@ -1,0 +1,10 @@
+version: 0xcafe
+packed: n
+topics: 1
+
+[begin 0x0001 0x0002]
+
+Hallo Welt!\n
+Welcome to forti
+
+[end]
