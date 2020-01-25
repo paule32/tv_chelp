@@ -1,10 +1,24 @@
-version: 0xcafe
+version: 0xcafebabe
+hlplang: 2
 packed: n
-topics: 1
+topics: 4
 
-[begin 0x0001 0x0002]
+[begin 0x0001 "index" ]
+Hallo.Welt!\n
+Welcome.to.forti
+{About:about}
+[end]
 
-Hallo Welt!\n
-Welcome to forti
+[begin 0x0002 "about" ]
+About.this.Application:\n
+Fortran.to.Pascal.Transpiller\n
+(c).2020.by.M\.Schilling.&.J\.Kallup
+[end]
 
+[begin 0x0003 "topic1" ]
+Kappel.dappel.zappel
+[end]
+
+[begin 0x0004 "topic2" ]
+This.is.the.end.of.glory
 [end]
